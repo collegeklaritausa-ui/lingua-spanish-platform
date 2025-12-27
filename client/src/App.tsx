@@ -7,6 +7,7 @@ import { LanguageProvider } from "./contexts/LanguageContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Feed from "./pages/Feed";
 import ChatArena from "./pages/ChatArena";
+import Curriculum from "./pages/Curriculum";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -14,6 +15,7 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Feed} />
       <Route path={"/chat"} component={ChatArena} />
+      <Route path={"/curriculum"} component={Curriculum} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

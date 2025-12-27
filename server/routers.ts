@@ -3,6 +3,7 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { chatRouter } from "./chatRouter";
 import { lessonRouter } from "./lessonRouter";
+import { curriculumRouter } from "./curriculumRouter";
 import { publicProcedure, router } from "./_core/trpc";
 
 export const appRouter = router({
@@ -10,6 +11,7 @@ export const appRouter = router({
   system: systemRouter,
   chat: chatRouter,
   lesson: lessonRouter,
+  curriculum: curriculumRouter,
   auth: router({
     me: publicProcedure.query(opts => opts.ctx.user),
     logout: publicProcedure.mutation(({ ctx }) => {
