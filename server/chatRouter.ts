@@ -1,6 +1,6 @@
 import { router, publicProcedure } from "./_core/trpc";
 import { z } from "zod";
-import { llm } from "./_core/llm";
+import { invokeLLM } from "./_core/llm";
 
 // Define the schema for the chat input
 const chatInputSchema = z.object({
