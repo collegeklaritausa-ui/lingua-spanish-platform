@@ -24,7 +24,7 @@ export type InsertUser = typeof users.$inferInsert;
  */
 export const cefrLevels = mysqlTable("cefr_levels", {
   id: int("id").autoincrement().primaryKey(),
-  code: varchar("code", { length: 2 }).notNull().unique(), // A1, A2, B1, B2, C1
+  code: varchar("code", { length: 2 }).notNull().unique(), // A1, A2, B1, B2, C1, C2
   name: varchar("name", { length: 50 }).notNull(),
   description: text("description"),
   order: int("order").notNull(),

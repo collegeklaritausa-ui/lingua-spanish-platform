@@ -6,7 +6,7 @@ import { llm } from "./_core/llm";
 const chatInputSchema = z.object({
   message: z.string().min(1),
   language: z.string().default('en'),
-  cefrLevel: z.enum(['A1', 'A2', 'B1', 'B2', 'C1']).default('A1'),
+  cefrLevel: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']).default('A1'),
 });
 
 // Define the schema for the chat response
@@ -37,6 +37,7 @@ export const chatRouter = router({
       - B1: Expressing opinions, dealing with common travel situations, describing dreams.
       - B2: Discussing complex social issues, debating, advanced narrative.
       - C1: Nuanced expression, professional contexts, abstract concepts.
+      - C2: Native-like mastery, literary analysis, philosophical discourse, cultural subtleties, humor, and any specialized domain.
 
       The user's message is: "${message}"`;
 

@@ -6,7 +6,7 @@ export interface FeedItem {
   title: Record<LanguageCode, string>;
   description: Record<LanguageCode, string>;
   hostImage: string;
-  cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
+  cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   duration: number; // in seconds
 }
 
