@@ -1,0 +1,88 @@
+{
+  "total_lessons": 10000,
+  "generated_at": "2025-12-26T22:19:04.436453",
+  "distribution": {
+    "A1": 2000,
+    "A2": 2000,
+    "B1": 1800,
+    "B2": 1700,
+    "C1": 1500,
+    "C2": 1000
+  },
+  "topics_per_level": {
+    "A1": [
+      "greetings",
+      "numbers",
+      "colors",
+      "family",
+      "food",
+      "time",
+      "weather",
+      "body",
+      "clothes",
+      "house",
+      "animals",
+      "professions"
+    ],
+    "A2": [
+      "daily_routine",
+      "travel",
+      "shopping",
+      "health",
+      "emotions",
+      "restaurant",
+      "hotel",
+      "transport",
+      "hobbies",
+      "technology"
+    ],
+    "B1": [
+      "opinions",
+      "subjunctive_intro",
+      "conditional",
+      "work",
+      "education",
+      "environment",
+      "relationships",
+      "culture",
+      "media",
+      "storytelling"
+    ],
+    "B2": [
+      "subjunctive",
+      "passive",
+      "debates",
+      "politics",
+      "economics",
+      "science",
+      "arts",
+      "literature",
+      "idioms",
+      "academic"
+    ],
+    "C1": [
+      "professional",
+      "legal",
+      "medical",
+      "technical",
+      "philosophy",
+      "nuanced",
+      "dialects",
+      "journalism",
+      "diplomacy",
+      "translation"
+    ],
+    "C2": [
+      "literary",
+      "philosophical",
+      "legal_adv",
+      "interpretation",
+      "cultural",
+      "historical",
+      "academic_pub",
+      "native_idioms",
+      "dialectal",
+      "specialized"
+    ]
+  }
+}
