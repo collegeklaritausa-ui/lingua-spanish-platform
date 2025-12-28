@@ -41,17 +41,16 @@ export const chatRouter = router({
 
       The user's message is: "${message}"`;
 
-      // 2. Call the LLM (using the pre-configured OpenAI client)
-      const llmResponse = await llm.chat.completions.create({
-        model: "gpt-4.1-mini", // Using a fast, capable model
+      // 2. Call the LLM (using the pre-configured invokeLLM)
+      const llmResponse = await invokeLLM({
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: message },
         ],
-        temperature: 0.7,
+        maxTokens: 500,
       });
 
-      const responseText = llmResponse.choices[0].message.content || "Lo siento, no pude procesar tu solicitud.";
+      const responseText = llmResponse.choices[0]?.message?.content?.toString() || "Lo siento, no pude procesar tu solicitud.";
 
       // 3. Return the response
       return {

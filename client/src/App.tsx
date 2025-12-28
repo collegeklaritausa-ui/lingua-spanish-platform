@@ -8,6 +8,11 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Feed from "./pages/Feed";
 import ChatArena from "./pages/ChatArena";
 import Curriculum from "./pages/Curriculum";
+import LessonDetail from "./pages/LessonDetail";
+import VocabularyPractice from "./pages/VocabularyPractice";
+import ProgressDashboard from "./pages/ProgressDashboard";
+import Tools from "./pages/Tools";
+import LevelSelector from "./pages/LevelSelector";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -16,6 +21,11 @@ function Router() {
       <Route path={"/"} component={Feed} />
       <Route path={"/chat"} component={ChatArena} />
       <Route path={"/curriculum"} component={Curriculum} />
+      <Route path={"/lesson/:slug"} component={LessonDetail} />
+      <Route path={"/vocabulary"} component={VocabularyPractice} />
+      <Route path={"/progress"} component={ProgressDashboard} />
+      <Route path={"/tools"} component={Tools} />
+      <Route path={"/levels"} component={LevelSelector} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -33,7 +43,7 @@ function App() {
     <ErrorBoundary>
       <LanguageProvider>
         <ThemeProvider
-          defaultTheme="light"
+          defaultTheme="dark"
           // switchable
         >
           <TooltipProvider>

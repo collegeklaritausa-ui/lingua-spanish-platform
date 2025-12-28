@@ -64,7 +64,7 @@ export default function ChatArena() {
 
   const handleSendMessage = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!inputMessage.trim() || chatMutation.isLoading) return;
+    if (!inputMessage.trim() || chatMutation.isPending) return;
 
     const userMessage: ChatMessage = {
       id: Date.now(),
@@ -121,7 +121,7 @@ export default function ChatArena() {
             <CardTitle className="text-secondary">{t('chat.conversation_title')}</CardTitle>
           </CardHeader>
           <CardContent className="flex-grow p-0">
-            <ScrollArea className="h-[60vh] p-4" viewportRef={scrollRef}>
+            <div ref={scrollRef} className="h-[60vh] p-4 overflow-y-auto">
               {messages.map((msg) => (
                 <div
                   key={msg.id}
@@ -138,7 +138,7 @@ export default function ChatArena() {
                   </div>
                 </div>
               ))}
-              {chatMutation.isLoading && (
+              {chatMutation.isPending && (
                 <div className="flex justify-start mb-4">
                   <div className="max-w-[70%] p-3 rounded-lg bg-secondary text-secondary-foreground flex items-center">
                     <Loader2 className="animate-spin w-4 h-4 mr-2" />
@@ -146,7 +146,7 @@ export default function ChatArena() {
                   </div>
                 </div>
               )}
-            </ScrollArea>
+            </div>
           </CardContent>
           <CardFooter className="p-4 border-t border-border">
             <form onSubmit={handleSendMessage} className="flex w-full space-x-2">
@@ -155,10 +155,10 @@ export default function ChatArena() {
                 placeholder={t('chat.input_placeholder')}
                 value={inputMessage}
                 onChange={(e) => setInputMessage(e.target.value)}
-                disabled={chatMutation.isLoading}
+                disabled={chatMutation.isPending}
                 className="flex-grow bg-input border-primary/50 text-foreground focus:ring-primary"
               />
-              <Button type="submit" disabled={chatMutation.isLoading || !inputMessage.trim()} className="bg-primary hover:bg-primary/90">
+              <Button type="submit" disabled={chatMutation.isPending || !inputMessage.trim()} className="bg-primary hover:bg-primary/90">
                 <Send className="w-4 h-4" />
               </Button>
             </form>

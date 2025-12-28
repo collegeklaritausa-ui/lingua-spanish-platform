@@ -40,7 +40,7 @@ export default function Home() {
           <Loader2 className="animate-spin mt-8" />
           {/* Example: Streamdown for markdown rendering */}
           <Streamdown className="mt-4">
-            {t('nav.home')} - {t('nav.lessons')} - {t('nav.profile')}
+            {`${t('nav.home')} - ${t('nav.lessons')} - ${t('nav.profile')}`}
           </Streamdown>
         </div>
       </main>

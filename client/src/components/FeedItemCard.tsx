@@ -15,6 +15,7 @@ const CEFR_COLORS: Record<FeedItem['cefrLevel'], string> = {
   B1: 'bg-yellow-500',
   B2: 'bg-orange-500',
   C1: 'bg-red-500',
+  C2: 'bg-purple-500',
 };
 
 const TYPE_ICONS: Record<FeedItem['type'], React.ReactNode> = {

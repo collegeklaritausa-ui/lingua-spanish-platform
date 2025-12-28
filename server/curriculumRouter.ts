@@ -97,7 +97,7 @@ export const curriculumRouter = router({
 
       return levelInfo.map(info => {
         const lessons = loadLessonsForLevel(info.code);
-        const topics = [...new Set(lessons.map(l => l.category))];
+        const topics = Array.from(new Set(lessons.map(l => l.category)));
         return {
           ...info,
           lessonCount: lessons.length,

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useLocation } from "wouter";
+import MainNavigation from "@/components/MainNavigation";
 import { trpc } from "@/lib/trpc";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -66,44 +67,33 @@ const levelDescriptions: Record<CEFRLevel, { name: string; subtitle: string; ski
 };
 
 export default function Curriculum() {
+  const [, setLocation] = useLocation();
   const [selectedLevel, setSelectedLevel] = useState<CEFRLevel>('A1');
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
 
   // Fetch curriculum stats
-  const { data: stats } = useQuery({
-    queryKey: ['curriculum', 'stats'],
-    queryFn: () => trpc.curriculum.getStats.query(),
-  });
+  const { data: stats } = trpc.curriculum.getStats.useQuery();
 
   // Fetch levels info
-  const { data: levels } = useQuery({
-    queryKey: ['curriculum', 'levels'],
-    queryFn: () => trpc.curriculum.getLevels.query(),
-  });
+  const { data: levels } = trpc.curriculum.getLevels.useQuery();
 
   // Fetch lessons for selected level
-  const { data: lessonsData, isLoading: lessonsLoading } = useQuery({
-    queryKey: ['curriculum', 'lessons', selectedLevel, currentPage],
-    queryFn: () => trpc.curriculum.getLessonsByLevel.query({
-      level: selectedLevel,
-      page: currentPage,
-      pageSize: 20,
-    }),
+  const { data: lessonsData, isLoading: lessonsLoading } = trpc.curriculum.getLessonsByLevel.useQuery({
+    level: selectedLevel,
+    page: currentPage,
+    pageSize: 20,
   });
 
   // Search lessons
-  const { data: searchResults } = useQuery({
-    queryKey: ['curriculum', 'search', searchQuery],
-    queryFn: () => trpc.curriculum.searchLessons.query({
-      query: searchQuery,
-      limit: 20,
-    }),
-    enabled: searchQuery.length >= 2,
-  });
+  const { data: searchResults } = trpc.curriculum.searchLessons.useQuery(
+    { query: searchQuery, limit: 20 },
+    { enabled: searchQuery.length >= 2 }
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <MainNavigation />
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
@@ -279,6 +269,7 @@ export default function Curriculum() {
                       <Card 
                         key={lesson.id}
                         className="bg-white/5 border-white/10 hover:bg-white/10 cursor-pointer transition-all group"
+                        onClick={() => setLocation(`/lesson/${lesson.slug}`)}
                       >
                         <CardContent className="p-4">
                           <div className="flex items-center justify-between">
