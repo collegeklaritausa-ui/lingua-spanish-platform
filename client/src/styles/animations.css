@@ -1,0 +1,381 @@
+/**
+ * Prize2Pride Lingua Spanish Platform
+ * Custom Animations for Avatar and UI
+ * 
+ * IMMUTABLE CODE - DO NOT DELETE
+ * Created: 2025-12-29
+ */
+
+/* Avatar Animations */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(251, 191, 36, 0.6);
+  }
+}
+
+@keyframes celebrate {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotate(-5deg);
+  }
+  75% {
+    transform: scale(1.1) rotate(5deg);
+  }
+}
+
+@keyframes think {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes encourage {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes excited {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  25% {
+    transform: translateY(-10px) scale(1.05);
+  }
+  50% {
+    transform: translateY(0) scale(1);
+  }
+  75% {
+    transform: translateY(-5px) scale(1.02);
+  }
+}
+
+@keyframes empathetic {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(0.98);
+    filter: brightness(1.1);
+  }
+}
+
+@keyframes speaking-wave {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Utility Classes */
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 1s ease-in-out infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+.animate-celebrate {
+  animation: celebrate 0.5s ease-in-out;
+}
+
+.animate-think {
+  animation: think 1s ease-in-out infinite;
+}
+
+.animate-encourage {
+  animation: encourage 1.5s ease-in-out infinite;
+}
+
+.animate-excited {
+  animation: excited 0.8s ease-in-out infinite;
+}
+
+.animate-empathetic {
+  animation: empathetic 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+/* Speaking Indicator Bars */
+.speaking-bars {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  height: 20px;
+}
+
+.speaking-bar {
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to top, #FBBF24, #F59E0B);
+  border-radius: 2px;
+  animation: speaking-wave 0.5s ease-in-out infinite;
+}
+
+.speaking-bar:nth-child(1) { animation-delay: 0ms; }
+.speaking-bar:nth-child(2) { animation-delay: 100ms; }
+.speaking-bar:nth-child(3) { animation-delay: 200ms; }
+.speaking-bar:nth-child(4) { animation-delay: 300ms; }
+.speaking-bar:nth-child(5) { animation-delay: 400ms; }
+
+/* Luxury Gold Glow Effect */
+.luxury-glow {
+  box-shadow: 
+    0 0 20px rgba(251, 191, 36, 0.3),
+    0 0 40px rgba(251, 191, 36, 0.2),
+    0 0 60px rgba(251, 191, 36, 0.1);
+}
+
+.luxury-glow-hover:hover {
+  box-shadow: 
+    0 0 30px rgba(251, 191, 36, 0.4),
+    0 0 60px rgba(251, 191, 36, 0.3),
+    0 0 90px rgba(251, 191, 36, 0.2);
+}
+
+/* Text Highlighting for Lessons */
+.highlight-spanish {
+  color: #FBBF24;
+  font-weight: bold;
+}
+
+.highlight-translation {
+  color: #60A5FA;
+}
+
+.highlight-stressed {
+  color: #F97316;
+  background-color: rgba(249, 115, 22, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.highlight-important {
+  color: #EF4444;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.highlight-grammar {
+  color: #A78BFA;
+  font-style: italic;
+}
+
+.highlight-cultural {
+  color: #F472B6;
+  font-style: italic;
+}
+
+.highlight-example {
+  color: #34D399;
+  background-color: rgba(34, 211, 153, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Lesson Card Styles */
+.lesson-card {
+  background: linear-gradient(135deg, rgba(31, 41, 55, 0.95), rgba(17, 24, 39, 0.98));
+  border: 2px solid rgba(251, 191, 36, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.lesson-card:hover {
+  border-color: rgba(251, 191, 36, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.lesson-card-header {
+  background: linear-gradient(90deg, rgba(251, 191, 36, 0.2), transparent);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.2);
+  padding: 16px 24px;
+}
+
+.lesson-card-content {
+  padding: 24px;
+  line-height: 1.8;
+}
+
+/* Mode Badges */
+.mode-badge {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mode-badge-formal {
+  background: #1E40AF;
+  color: white;
+}
+
+.mode-badge-informal {
+  background: #059669;
+  color: white;
+}
+
+.mode-badge-slang {
+  background: #DC2626;
+  color: white;
+}
+
+.mode-badge-dirty {
+  background: #7C3AED;
+  color: white;
+}
+
+.mode-badge-expert {
+  background: #0891B2;
+  color: white;
+}
+
+/* Subscription Tier Colors */
+.tier-freemium { color: #6B7280; }
+.tier-bronze { color: #CD7F32; }
+.tier-silver { color: #C0C0C0; }
+.tier-gold { color: #FFD700; }
+.tier-diamond { color: #B9F2FF; }
+.tier-vip { color: #8B5CF6; }
+
+/* Chat Message Styles */
+.chat-message {
+  max-width: 85%;
+  border-radius: 16px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.chat-message-user {
+  background: linear-gradient(135deg, #2563EB, #1D4ED8);
+  color: white;
+  margin-left: auto;
+}
+
+.chat-message-avatar {
+  background: linear-gradient(135deg, rgba(55, 65, 81, 0.9), rgba(31, 41, 55, 0.95));
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  color: #E5E7EB;
+}
+
+/* Scrollbar Styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(31, 41, 55, 0.5);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36, 0.3);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 191, 36, 0.5);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .chat-message {
+    max-width: 95%;
+  }
+  
+  .lesson-card-content {
+    padding: 16px;
+  }
+}

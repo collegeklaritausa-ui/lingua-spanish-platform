@@ -1,3 +1,11 @@
+/**
+ * Prize2Pride Lingua Spanish Platform
+ * Main Application Entry Point
+ * 
+ * IMMUTABLE CODE - DO NOT DELETE
+ * Updated: 2025-12-29
+ */
+
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
@@ -5,6 +13,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { SubscriptionProvider } from "./contexts/SubscriptionContext";
 import Feed from "./pages/Feed";
 import ChatArena from "./pages/ChatArena";
 import Curriculum from "./pages/Curriculum";
@@ -14,18 +23,29 @@ import ProgressDashboard from "./pages/ProgressDashboard";
 import Tools from "./pages/Tools";
 import LevelSelector from "./pages/LevelSelector";
 
+// New Pages - Prize2Pride Augmentation 2025-12-29
+import LuxuryChatArena from "./pages/LuxuryChatArena";
+import Pricing from "./pages/Pricing";
+import ModeSelector from "./pages/ModeSelector";
+
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Feed} />
-      <Route path={"/chat"} component={ChatArena} />
+      <Route path={"/chat"} component={LuxuryChatArena} />
+      <Route path={"/chat-legacy"} component={ChatArena} />
+      <Route path={"/arena"} component={LuxuryChatArena} />
       <Route path={"/curriculum"} component={Curriculum} />
       <Route path={"/lesson/:slug"} component={LessonDetail} />
       <Route path={"/vocabulary"} component={VocabularyPractice} />
       <Route path={"/progress"} component={ProgressDashboard} />
       <Route path={"/tools"} component={Tools} />
       <Route path={"/levels"} component={LevelSelector} />
+      <Route path={"/modes"} component={ModeSelector} />
+      <Route path={"/pricing"} component={Pricing} />
+      <Route path={"/subscribe"} component={Pricing} />
+      <Route path={"/plans"} component={Pricing} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -42,7 +62,8 @@ function App() {
   return (
     <ErrorBoundary>
       <LanguageProvider>
-        <ThemeProvider
+        <SubscriptionProvider>
+          <ThemeProvider
           defaultTheme="dark"
           // switchable
         >
@@ -51,6 +72,7 @@ function App() {
             <Router />
           </TooltipProvider>
         </ThemeProvider>
+        </SubscriptionProvider>
       </LanguageProvider>
     </ErrorBoundary>
   );
