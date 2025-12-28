@@ -1,0 +1,111 @@
+{
+  "batch_id": "001",
+  "batch_name": "A1 Basics - Formal & Informal",
+  "level": "A1",
+  "total_lessons": 1000,
+  "created": "2025-12-29",
+  "immutable": true,
+  "lessons": [
+    {
+      "id": "A1_001",
+      "title": "¡Hola! - First Greetings",
+      "mode": "formal",
+      "topic": "greetings",
+      "content": "📚 VOCABULARIO - Saludos Básicos\n\n**Hola** → Hello\nPronunciación: [Ó-la]\n\n**Buenos días** → Good morning\nPronunciación: [BWE-nos] [DÍ-as]\n\n**Buenas tardes** → Good afternoon\nPronunciación: [BWE-nas] [TAR-des]\n\n**Buenas noches** → Good evening/night\nPronunciación: [BWE-nas] [NO-ches]\n\n🎯 IMPORTANTE\n\nEn español, los saludos cambian según la hora del día:\n• Mañana (6:00-12:00): **Buenos días**\n• Tarde (12:00-20:00): **Buenas tardes**\n• Noche (20:00-6:00): **Buenas noches**\n\n💡 EJEMPLO\n\n— Buenos días, señor García.\n— Buenos días. ¿Cómo está usted?\n— Muy bien, gracias. ¿Y usted?\n\n📖 GRAMÁTICA\n\n**Estar** (to be - temporary states):\n• Yo estoy → I am\n• Usted está → You are (formal)\n\n🌍 CULTURAL\n\n😄 **Dato curioso**: En España, si dices \"buenas\" sin más, ¡funciona a cualquier hora! Es como un comodín mágico de los saludos.",
+      "vocabulary": [
+        {"spanish": "Hola", "pronunciation": "[Ó-la]", "en": "Hello", "fr": "Bonjour", "de": "Hallo", "it": "Ciao", "ar": "مرحبا", "zh": "你好"},
+        {"spanish": "Buenos días", "pronunciation": "[BWE-nos] [DÍ-as]", "en": "Good morning", "fr": "Bonjour", "de": "Guten Morgen", "it": "Buongiorno", "ar": "صباح الخير", "zh": "早上好"},
+        {"spanish": "Buenas tardes", "pronunciation": "[BWE-nas] [TAR-des]", "en": "Good afternoon", "fr": "Bon après-midi", "de": "Guten Tag", "it": "Buon pomeriggio", "ar": "مساء الخير", "zh": "下午好"},
+        {"spanish": "Buenas noches", "pronunciation": "[BWE-nas] [NO-ches]", "en": "Good evening", "fr": "Bonsoir", "de": "Guten Abend", "it": "Buonasera", "ar": "مساء الخير", "zh": "晚上好"}
+      ],
+      "exercises": [
+        {"type": "multiple_choice", "question": "¿Cómo se dice 'Good morning' en español?", "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Hola"], "correct": 0},
+        {"type": "fill_blank", "question": "_____ días, señor Pérez.", "correct": "Buenos"},
+        {"type": "pronunciation", "word": "Buenos días", "phonetic": "[BWE-nos] [DÍ-as]"}
+      ],
+      "humor": "¿Por qué el español es tan educado? ¡Porque tiene 'buenos' días, tardes Y noches! 😄"
+    },
+    {
+      "id": "A1_002",
+      "title": "¿Cómo te llamas? - Introductions",
+      "mode": "informal",
+      "topic": "introductions",
+      "content": "📚 VOCABULARIO - Presentaciones\n\n**¿Cómo te llamas?** → What's your name?\nPronunciación: [KÓ-mo] [te] [YÁ-mas]\n\n**Me llamo...** → My name is...\nPronunciación: [me] [YÁ-mo]\n\n**Mucho gusto** → Nice to meet you\nPronunciación: [MU-cho] [GUS-to]\n\n**Encantado/a** → Pleased to meet you\nPronunciación: [en-kan-TÁ-do/da]\n\n🎯 IMPORTANTE\n\n**Encantado** = masculino (si eres hombre)\n**Encantada** = femenino (si eres mujer)\n\n💡 EJEMPLO\n\n— ¡Hola! ¿Cómo te llamas?\n— Me llamo María. ¿Y tú?\n— Yo me llamo Carlos. ¡Mucho gusto!\n— ¡Encantada!\n\n📖 GRAMÁTICA\n\n**Llamarse** (to be called):\n• Yo me llamo → I am called\n• Tú te llamas → You are called\n• Él/Ella se llama → He/She is called\n\n🌍 CULTURAL\n\n😄 **Dato curioso**: En España, cuando conoces a alguien, es común dar dos besos en las mejillas. ¡Pero cuidado! Empieza por la mejilla derecha de la otra persona, o habrá un momento incómodo. 😅",
+      "vocabulary": [
+        {"spanish": "¿Cómo te llamas?", "pronunciation": "[KÓ-mo] [te] [YÁ-mas]", "en": "What's your name?", "fr": "Comment tu t'appelles?", "de": "Wie heißt du?", "it": "Come ti chiami?", "ar": "ما اسمك؟", "zh": "你叫什么名字？"},
+        {"spanish": "Me llamo", "pronunciation": "[me] [YÁ-mo]", "en": "My name is", "fr": "Je m'appelle", "de": "Ich heiße", "it": "Mi chiamo", "ar": "اسمي", "zh": "我叫"},
+        {"spanish": "Mucho gusto", "pronunciation": "[MU-cho] [GUS-to]", "en": "Nice to meet you", "fr": "Enchanté", "de": "Freut mich", "it": "Piacere", "ar": "سعيد بلقائك", "zh": "很高兴认识你"},
+        {"spanish": "Encantado/a", "pronunciation": "[en-kan-TÁ-do]", "en": "Pleased to meet you", "fr": "Enchanté(e)", "de": "Freut mich", "it": "Piacere", "ar": "سعيد جدا", "zh": "很高兴"}
+      ],
+      "exercises": [
+        {"type": "multiple_choice", "question": "Si eres mujer, ¿qué dices?", "options": ["Encantada", "Encantado", "Encantados", "Encantadas"], "correct": 0},
+        {"type": "conversation", "prompt": "Alguien te pregunta: ¿Cómo te llamas?", "expected": "Me llamo [nombre]"}
+      ],
+      "humor": "¿Sabías que 'Me llamo' literalmente significa 'I call myself'? ¡Los españoles son muy filosóficos hasta para presentarse! 🤔😂"
+    },
+    {
+      "id": "A1_003",
+      "title": "Los Números 1-10",
+      "mode": "formal",
+      "topic": "numbers",
+      "content": "📚 VOCABULARIO - Números del 1 al 10\n\n**Uno** → 1 [U-no]\n**Dos** → 2 [dos]\n**Tres** → 3 [tres]\n**Cuatro** → 4 [KWA-tro]\n**Cinco** → 5 [THIN-ko] (España) / [SIN-ko] (Latinoamérica)\n**Seis** → 6 [seis]\n**Siete** → 7 [SIE-te]\n**Ocho** → 8 [O-cho]\n**Nueve** → 9 [NWE-ve]\n**Diez** → 10 [dieth] (España) / [dies] (Latinoamérica)\n\n🎯 IMPORTANTE\n\n**Uno** cambia a **un** antes de sustantivos masculinos:\n• Un libro (a book)\n• Una casa (a house)\n\n💡 EJEMPLO\n\n— ¿Cuántos hermanos tienes?\n— Tengo dos hermanos y una hermana.\n— ¡Tres en total!\n\n📖 GRAMÁTICA\n\nLos números del 1 al 10 son la base de todo el sistema numérico español.\n\n🌍 CULTURAL\n\n😄 **Dato curioso**: En España, el número 5 se pronuncia [THIN-ko] con sonido de 'z' inglesa. En Latinoamérica es [SIN-ko]. ¡Ambos son correctos! Es como la diferencia entre el inglés británico y americano.",
+      "vocabulary": [
+        {"spanish": "uno", "pronunciation": "[U-no]", "en": "one", "fr": "un", "de": "eins", "it": "uno", "ar": "واحد", "zh": "一"},
+        {"spanish": "dos", "pronunciation": "[dos]", "en": "two", "fr": "deux", "de": "zwei", "it": "due", "ar": "اثنان", "zh": "二"},
+        {"spanish": "tres", "pronunciation": "[tres]", "en": "three", "fr": "trois", "de": "drei", "it": "tre", "ar": "ثلاثة", "zh": "三"},
+        {"spanish": "cuatro", "pronunciation": "[KWA-tro]", "en": "four", "fr": "quatre", "de": "vier", "it": "quattro", "ar": "أربعة", "zh": "四"},
+        {"spanish": "cinco", "pronunciation": "[THIN-ko]", "en": "five", "fr": "cinq", "de": "fünf", "it": "cinque", "ar": "خمسة", "zh": "五"},
+        {"spanish": "seis", "pronunciation": "[seis]", "en": "six", "fr": "six", "de": "sechs", "it": "sei", "ar": "ستة", "zh": "六"},
+        {"spanish": "siete", "pronunciation": "[SIE-te]", "en": "seven", "fr": "sept", "de": "sieben", "it": "sette", "ar": "سبعة", "zh": "七"},
+        {"spanish": "ocho", "pronunciation": "[O-cho]", "en": "eight", "fr": "huit", "de": "acht", "it": "otto", "ar": "ثمانية", "zh": "八"},
+        {"spanish": "nueve", "pronunciation": "[NWE-ve]", "en": "nine", "fr": "neuf", "de": "neun", "it": "nove", "ar": "تسعة", "zh": "九"},
+        {"spanish": "diez", "pronunciation": "[dieth]", "en": "ten", "fr": "dix", "de": "zehn", "it": "dieci", "ar": "عشرة", "zh": "十"}
+      ],
+      "exercises": [
+        {"type": "sequence", "question": "Completa: uno, dos, ___, cuatro, ___", "correct": ["tres", "cinco"]},
+        {"type": "listening", "audio_text": "siete", "options": ["5", "6", "7", "8"], "correct": 2}
+      ],
+      "humor": "¿Por qué los números españoles van al gimnasio? ¡Para tener buen 'cuerpo' de número! 💪😂 (Cuerpo = body, pero también significa 'shape' para números)"
+    },
+    {
+      "id": "A1_004",
+      "title": "Los Colores Básicos",
+      "mode": "informal",
+      "topic": "colors",
+      "content": "📚 VOCABULARIO - Los Colores\n\n**Rojo** → Red [RO-jo]\n**Azul** → Blue [a-THUL]\n**Verde** → Green [VER-de]\n**Amarillo** → Yellow [a-ma-RI-yo]\n**Naranja** → Orange [na-RAN-ja]\n**Negro** → Black [NE-gro]\n**Blanco** → White [BLAN-ko]\n**Rosa** → Pink [RO-sa]\n**Morado** → Purple [mo-RA-do]\n**Marrón** → Brown [ma-RRÓN]\n\n🎯 IMPORTANTE\n\nLos colores concuerdan con el sustantivo:\n• El coche **rojo** (masculine)\n• La casa **roja** (feminine)\n• Los coches **rojos** (plural masc.)\n• Las casas **rojas** (plural fem.)\n\n⚠️ **Excepciones**: Azul, verde, naranja y rosa NO cambian:\n• El coche azul / La casa azul\n\n💡 EJEMPLO\n\n— ¿De qué color es tu camiseta?\n— Es roja. ¿Y la tuya?\n— La mía es azul.\n\n🌍 CULTURAL\n\n😄 **Dato curioso**: En español, 'naranja' es tanto el color como la fruta. ¡Imagina la confusión! 'Quiero una naranja naranja' = 'I want an orange orange'. 🍊😂",
+      "vocabulary": [
+        {"spanish": "rojo", "pronunciation": "[RO-jo]", "en": "red", "fr": "rouge", "de": "rot", "it": "rosso", "ar": "أحمر", "zh": "红色"},
+        {"spanish": "azul", "pronunciation": "[a-THUL]", "en": "blue", "fr": "bleu", "de": "blau", "it": "blu", "ar": "أزرق", "zh": "蓝色"},
+        {"spanish": "verde", "pronunciation": "[VER-de]", "en": "green", "fr": "vert", "de": "grün", "it": "verde", "ar": "أخضر", "zh": "绿色"},
+        {"spanish": "amarillo", "pronunciation": "[a-ma-RI-yo]", "en": "yellow", "fr": "jaune", "de": "gelb", "it": "giallo", "ar": "أصفر", "zh": "黄色"},
+        {"spanish": "negro", "pronunciation": "[NE-gro]", "en": "black", "fr": "noir", "de": "schwarz", "it": "nero", "ar": "أسود", "zh": "黑色"},
+        {"spanish": "blanco", "pronunciation": "[BLAN-ko]", "en": "white", "fr": "blanc", "de": "weiß", "it": "bianco", "ar": "أبيض", "zh": "白色"}
+      ],
+      "exercises": [
+        {"type": "matching", "pairs": [["rojo", "red"], ["azul", "blue"], ["verde", "green"], ["amarillo", "yellow"]]},
+        {"type": "fill_blank", "question": "El cielo es ___.", "correct": "azul"}
+      ],
+      "humor": "¿Cuál es el color favorito de los fantasmas? ¡El BLAN-BOO! 👻😂"
+    },
+    {
+      "id": "A1_005",
+      "title": "La Familia - Family Members",
+      "mode": "formal",
+      "topic": "family",
+      "content": "📚 VOCABULARIO - La Familia\n\n**Padre** → Father [PA-dre]\n**Madre** → Mother [MA-dre]\n**Hermano** → Brother [er-MA-no]\n**Hermana** → Sister [er-MA-na]\n**Abuelo** → Grandfather [a-BWE-lo]\n**Abuela** → Grandmother [a-BWE-la]\n**Tío** → Uncle [TÍ-o]\n**Tía** → Aunt [TÍ-a]\n**Primo** → Cousin (male) [PRI-mo]\n**Prima** → Cousin (female) [PRI-ma]\n\n🎯 IMPORTANTE\n\n**Padres** = Parents (not just fathers!)\n**Hermanos** = Siblings (brothers and sisters)\n**Abuelos** = Grandparents\n**Tíos** = Aunts and uncles\n\n💡 EJEMPLO\n\n— ¿Tienes hermanos?\n— Sí, tengo un hermano y dos hermanas.\n— ¡Qué familia grande!\n— Sí, y también tengo muchos primos.\n\n📖 GRAMÁTICA\n\n**Tener** (to have):\n• Yo tengo → I have\n• Tú tienes → You have\n• Él/Ella tiene → He/She has\n\n🌍 CULTURAL\n\n😄 **Dato curioso**: En las familias hispanas, los 'primos segundos' (second cousins) y hasta los 'primos terceros' siguen siendo familia cercana. ¡Las reuniones familiares pueden tener 100+ personas! 🎉👨‍👩‍👧‍👦",
+      "vocabulary": [
+        {"spanish": "padre", "pronunciation": "[PA-dre]", "en": "father", "fr": "père", "de": "Vater", "it": "padre", "ar": "أب", "zh": "父亲"},
+        {"spanish": "madre", "pronunciation": "[MA-dre]", "en": "mother", "fr": "mère", "de": "Mutter", "it": "madre", "ar": "أم", "zh": "母亲"},
+        {"spanish": "hermano", "pronunciation": "[er-MA-no]", "en": "brother", "fr": "frère", "de": "Bruder", "it": "fratello", "ar": "أخ", "zh": "兄弟"},
+        {"spanish": "hermana", "pronunciation": "[er-MA-na]", "en": "sister", "fr": "sœur", "de": "Schwester", "it": "sorella", "ar": "أخت", "zh": "姐妹"},
+        {"spanish": "abuelo", "pronunciation": "[a-BWE-lo]", "en": "grandfather", "fr": "grand-père", "de": "Großvater", "it": "nonno", "ar": "جد", "zh": "祖父"},
+        {"spanish": "abuela", "pronunciation": "[a-BWE-la]", "en": "grandmother", "fr": "grand-mère", "de": "Großmutter", "it": "nonna", "ar": "جدة", "zh": "祖母"}
+      ],
+      "exercises": [
+        {"type": "multiple_choice", "question": "¿Cómo se dice 'parents' en español?", "options": ["Padres", "Padre", "Parientes", "Papás"], "correct": 0},
+        {"type": "family_tree", "prompt": "El padre de mi padre es mi...", "correct": "abuelo"}
+      ],
+      "humor": "¿Por qué la familia española es como una telenovela? ¡Porque siempre hay drama, secretos, y alguien que vuelve de entre los muertos! 📺😂"
+    }
+  ]
+}
