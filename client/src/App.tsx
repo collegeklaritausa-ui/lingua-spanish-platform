@@ -15,6 +15,7 @@ import { LanguageProvider } from "./contexts/LanguageContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SubscriptionProvider } from "./contexts/SubscriptionContext";
 import Feed from "./pages/Feed";
+import Home from "./pages/Home";
 import ChatArena from "./pages/ChatArena";
 import Curriculum from "./pages/Curriculum";
 import LessonDetail from "./pages/LessonDetail";
@@ -32,7 +33,8 @@ function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
-      <Route path={"/"} component={Feed} />
+      <Route path={"/"} component={Home} />
+      <Route path={"/feed"} component={Feed} />
       <Route path={"/chat"} component={LuxuryChatArena} />
       <Route path={"/chat-legacy"} component={ChatArena} />
       <Route path={"/arena"} component={LuxuryChatArena} />

@@ -13,7 +13,7 @@ import { Badge } from '@/components/ui/badge';
 import { Check, Crown, Gem, Star, Award, MessageCircle, Sparkles } from 'lucide-react';
 import { SUBSCRIPTION_PLANS, SubscriptionPlan } from '@/const/subscriptionPlans';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { DashboardLayout } from '@/components/DashboardLayout';
+import DashboardLayout from '@/components/DashboardLayout';
 import { AnimatedAvatarShowcase } from '@/components/AnimatedAvatarShowcase';
 
 const iconMap: Record<string, React.ReactNode> = {

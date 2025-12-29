@@ -13,7 +13,7 @@ import { Badge } from '@/components/ui/badge';
 import { Lock, Check, AlertTriangle } from 'lucide-react';
 import { LANGUAGE_MODES, LanguageMode, canAccessMode } from '@/const/languageModes';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { DashboardLayout } from '@/components/DashboardLayout';
+import DashboardLayout from '@/components/DashboardLayout';
 import { AnimatedAvatarShowcase } from '@/components/AnimatedAvatarShowcase';
 
 interface ModeSelectorProps {

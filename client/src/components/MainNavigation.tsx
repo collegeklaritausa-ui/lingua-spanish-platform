@@ -23,7 +23,9 @@ import {
   User,
   LogOut,
   Settings,
-  ChevronDown
+  ChevronDown,
+  Crown,
+  Sparkles
 } from "lucide-react";
 
 interface NavItem {
@@ -61,12 +63,12 @@ export default function MainNavigation() {
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => setLocation('/')}
           >
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-              <GraduationCap className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-yellow-500 to-amber-600 flex items-center justify-center">
+              <Crown className="w-6 h-6 text-black" />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-lg font-bold text-white">Prize2Pride</h1>
-              <p className="text-xs text-gray-400">Spanish A1-C2</p>
+              <h1 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-500">Prize2Pride</h1>
+              <p className="text-xs text-gray-400">El Dorado Edition</p>
             </div>
           </div>
 
