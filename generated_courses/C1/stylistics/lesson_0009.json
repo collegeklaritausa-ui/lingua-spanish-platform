@@ -1,0 +1,516 @@
+{
+  "id": "c1_stylistics_0009",
+  "slug": "c1-stylistics-0009",
+  "cefr_level": "C1",
+  "category": "Stylistics",
+  "title_en": "Stylistics - Lesson 9",
+  "title_es": "Stylistics - Lección 9",
+  "description_en": "Learn stylistics vocabulary and expressions at the C1 level.",
+  "description_es": "Aprende vocabulario y expresiones de stylistics en el nivel C1.",
+  "objectives": [
+    "Master 35 new vocabulary words",
+    "Understand 3 grammar concepts",
+    "Complete 18 practice exercises",
+    "Apply knowledge in real-world contexts"
+  ],
+  "estimated_minutes": 35,
+  "vocabulary": [
+    {
+      "spanish": "palabra_0",
+      "english": "word_0",
+      "pronunciation": "PALABRA_0",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_0.",
+      "example_en": "I like word_0."
+    },
+    {
+      "spanish": "palabra_1",
+      "english": "word_1",
+      "pronunciation": "PALABRA_1",
+      "pos": "noun",
+      "example_es": "Tengo palabra_1.",
+      "example_en": "I have word_1."
+    },
+    {
+      "spanish": "palabra_2",
+      "english": "word_2",
+      "pronunciation": "PALABRA_2",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_2?",
+      "example_en": "Where is word_2?"
+    },
+    {
+      "spanish": "palabra_3",
+      "english": "word_3",
+      "pronunciation": "PALABRA_3",
+      "pos": "noun",
+      "example_es": "Necesito palabra_3.",
+      "example_en": "I need word_3."
+    },
+    {
+      "spanish": "palabra_4",
+      "english": "word_4",
+      "pronunciation": "PALABRA_4",
+      "pos": "noun",
+      "example_es": "Necesito palabra_4.",
+      "example_en": "I need word_4."
+    },
+    {
+      "spanish": "palabra_5",
+      "english": "word_5",
+      "pronunciation": "PALABRA_5",
+      "pos": "noun",
+      "example_es": "Quiero palabra_5.",
+      "example_en": "I want word_5."
+    },
+    {
+      "spanish": "palabra_6",
+      "english": "word_6",
+      "pronunciation": "PALABRA_6",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_6.",
+      "example_en": "I like word_6."
+    },
+    {
+      "spanish": "palabra_7",
+      "english": "word_7",
+      "pronunciation": "PALABRA_7",
+      "pos": "noun",
+      "example_es": "Quiero palabra_7.",
+      "example_en": "I want word_7."
+    },
+    {
+      "spanish": "palabra_8",
+      "english": "word_8",
+      "pronunciation": "PALABRA_8",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_8?",
+      "example_en": "Where is word_8?"
+    },
+    {
+      "spanish": "palabra_9",
+      "english": "word_9",
+      "pronunciation": "PALABRA_9",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_9?",
+      "example_en": "Where is word_9?"
+    },
+    {
+      "spanish": "palabra_10",
+      "english": "word_10",
+      "pronunciation": "PALABRA_10",
+      "pos": "noun",
+      "example_es": "Tengo palabra_10.",
+      "example_en": "I have word_10."
+    },
+    {
+      "spanish": "palabra_11",
+      "english": "word_11",
+      "pronunciation": "PALABRA_11",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_11?",
+      "example_en": "Where is word_11?"
+    },
+    {
+      "spanish": "palabra_12",
+      "english": "word_12",
+      "pronunciation": "PALABRA_12",
+      "pos": "noun",
+      "example_es": "Quiero palabra_12.",
+      "example_en": "I want word_12."
+    },
+    {
+      "spanish": "palabra_13",
+      "english": "word_13",
+      "pronunciation": "PALABRA_13",
+      "pos": "noun",
+      "example_es": "Quiero palabra_13.",
+      "example_en": "I want word_13."
+    },
+    {
+      "spanish": "palabra_14",
+      "english": "word_14",
+      "pronunciation": "PALABRA_14",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_14.",
+      "example_en": "I like word_14."
+    },
+    {
+      "spanish": "palabra_15",
+      "english": "word_15",
+      "pronunciation": "PALABRA_15",
+      "pos": "noun",
+      "example_es": "Tengo palabra_15.",
+      "example_en": "I have word_15."
+    },
+    {
+      "spanish": "palabra_16",
+      "english": "word_16",
+      "pronunciation": "PALABRA_16",
+      "pos": "noun",
+      "example_es": "Tengo palabra_16.",
+      "example_en": "I have word_16."
+    },
+    {
+      "spanish": "palabra_17",
+      "english": "word_17",
+      "pronunciation": "PALABRA_17",
+      "pos": "noun",
+      "example_es": "Tengo palabra_17.",
+      "example_en": "I have word_17."
+    },
+    {
+      "spanish": "palabra_18",
+      "english": "word_18",
+      "pronunciation": "PALABRA_18",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_18.",
+      "example_en": "I like word_18."
+    },
+    {
+      "spanish": "palabra_19",
+      "english": "word_19",
+      "pronunciation": "PALABRA_19",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_19?",
+      "example_en": "Where is word_19?"
+    },
+    {
+      "spanish": "palabra_20",
+      "english": "word_20",
+      "pronunciation": "PALABRA_20",
+      "pos": "noun",
+      "example_es": "Tengo palabra_20.",
+      "example_en": "I have word_20."
+    },
+    {
+      "spanish": "palabra_21",
+      "english": "word_21",
+      "pronunciation": "PALABRA_21",
+      "pos": "noun",
+      "example_es": "Necesito palabra_21.",
+      "example_en": "I need word_21."
+    },
+    {
+      "spanish": "palabra_22",
+      "english": "word_22",
+      "pronunciation": "PALABRA_22",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_22.",
+      "example_en": "I like word_22."
+    },
+    {
+      "spanish": "palabra_23",
+      "english": "word_23",
+      "pronunciation": "PALABRA_23",
+      "pos": "noun",
+      "example_es": "Tengo palabra_23.",
+      "example_en": "I have word_23."
+    },
+    {
+      "spanish": "palabra_24",
+      "english": "word_24",
+      "pronunciation": "PALABRA_24",
+      "pos": "noun",
+      "example_es": "Necesito palabra_24.",
+      "example_en": "I need word_24."
+    },
+    {
+      "spanish": "palabra_25",
+      "english": "word_25",
+      "pronunciation": "PALABRA_25",
+      "pos": "noun",
+      "example_es": "Necesito palabra_25.",
+      "example_en": "I need word_25."
+    },
+    {
+      "spanish": "palabra_26",
+      "english": "word_26",
+      "pronunciation": "PALABRA_26",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_26.",
+      "example_en": "I like word_26."
+    },
+    {
+      "spanish": "palabra_27",
+      "english": "word_27",
+      "pronunciation": "PALABRA_27",
+      "pos": "noun",
+      "example_es": "Quiero palabra_27.",
+      "example_en": "I want word_27."
+    },
+    {
+      "spanish": "palabra_28",
+      "english": "word_28",
+      "pronunciation": "PALABRA_28",
+      "pos": "noun",
+      "example_es": "Necesito palabra_28.",
+      "example_en": "I need word_28."
+    },
+    {
+      "spanish": "palabra_29",
+      "english": "word_29",
+      "pronunciation": "PALABRA_29",
+      "pos": "noun",
+      "example_es": "Quiero palabra_29.",
+      "example_en": "I want word_29."
+    },
+    {
+      "spanish": "palabra_30",
+      "english": "word_30",
+      "pronunciation": "PALABRA_30",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_30.",
+      "example_en": "I like word_30."
+    },
+    {
+      "spanish": "palabra_31",
+      "english": "word_31",
+      "pronunciation": "PALABRA_31",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_31?",
+      "example_en": "Where is word_31?"
+    },
+    {
+      "spanish": "palabra_32",
+      "english": "word_32",
+      "pronunciation": "PALABRA_32",
+      "pos": "noun",
+      "example_es": "Tengo palabra_32.",
+      "example_en": "I have word_32."
+    },
+    {
+      "spanish": "palabra_33",
+      "english": "word_33",
+      "pronunciation": "PALABRA_33",
+      "pos": "noun",
+      "example_es": "Quiero palabra_33.",
+      "example_en": "I want word_33."
+    },
+    {
+      "spanish": "palabra_34",
+      "english": "word_34",
+      "pronunciation": "PALABRA_34",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_34.",
+      "example_en": "I like word_34."
+    }
+  ],
+  "grammar_points": [
+    "Stylistic variations",
+    "Register and formality",
+    "Idiomatic expressions"
+  ],
+  "cultural_note": "The voseo (use of 'vos') is common in Argentina, Uruguay, and parts of Central America.",
+  "exercises": [
+    {
+      "id": "439bafb3",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_0' mean?",
+      "options": [
+        "car",
+        "word_0",
+        "friend",
+        "night"
+      ],
+      "correct_answer": "word_0",
+      "explanation": "'palabra_0' translates to 'word_0' in English.",
+      "points": 10
+    },
+    {
+      "id": "8a012a63",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_1' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_1",
+      "explanation": "The correct answer is 'palabra_1'.",
+      "points": 15
+    },
+    {
+      "id": "d3f9e503",
+      "type": "translation",
+      "question": "Translate to Spanish: 'word_2'",
+      "options": [],
+      "correct_answer": "palabra_2",
+      "explanation": "'word_2' in Spanish is 'palabra_2'.",
+      "points": 20
+    },
+    {
+      "id": "581203e7",
+      "type": "matching",
+      "question": "Match 'palabra_3' with its meaning",
+      "options": [
+        "word_3",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "word_3",
+      "explanation": "'palabra_3' matches with 'word_3'.",
+      "points": 10
+    },
+    {
+      "id": "b743e079",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_4' mean?",
+      "options": [
+        "word_4",
+        "friend",
+        "water",
+        "night"
+      ],
+      "correct_answer": "word_4",
+      "explanation": "'palabra_4' translates to 'word_4' in English.",
+      "points": 10
+    },
+    {
+      "id": "f61fa2cc",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_5' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_5",
+      "explanation": "The correct answer is 'palabra_5'.",
+      "points": 15
+    },
+    {
+      "id": "472d1537",
+      "type": "translation",
+      "question": "Translate to Spanish: 'word_6'",
+      "options": [],
+      "correct_answer": "palabra_6",
+      "explanation": "'word_6' in Spanish is 'palabra_6'.",
+      "points": 20
+    },
+    {
+      "id": "601e4ca6",
+      "type": "matching",
+      "question": "Match 'palabra_7' with its meaning",
+      "options": [
+        "word_7",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "word_7",
+      "explanation": "'palabra_7' matches with 'word_7'.",
+      "points": 10
+    },
+    {
+      "id": "4e44c657",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_8' mean?",
+      "options": [
+        "word_8",
+        "night",
+        "book",
+        "friend"
+      ],
+      "correct_answer": "word_8",
+      "explanation": "'palabra_8' translates to 'word_8' in English.",
+      "points": 10
+    },
+    {
+      "id": "99420a86",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_9' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_9",
+      "explanation": "The correct answer is 'palabra_9'.",
+      "points": 15
+    },
+    {
+      "id": "8d60d66d",
+      "type": "translation",
+      "question": "Translate to Spanish: 'word_10'",
+      "options": [],
+      "correct_answer": "palabra_10",
+      "explanation": "'word_10' in Spanish is 'palabra_10'.",
+      "points": 20
+    },
+    {
+      "id": "65ba4884",
+      "type": "matching",
+      "question": "Match 'palabra_11' with its meaning",
+      "options": [
+        "word_11",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "word_11",
+      "explanation": "'palabra_11' matches with 'word_11'.",
+      "points": 10
+    },
+    {
+      "id": "657bae82",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_12' mean?",
+      "options": [
+        "word_12",
+        "day",
+        "book",
+        "water"
+      ],
+      "correct_answer": "word_12",
+      "explanation": "'palabra_12' translates to 'word_12' in English.",
+      "points": 10
+    },
+    {
+      "id": "3f7f4caa",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_13' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_13",
+      "explanation": "The correct answer is 'palabra_13'.",
+      "points": 15
+    },
+    {
+      "id": "01116177",
+      "type": "translation",
+      "question": "Translate to Spanish: 'word_14'",
+      "options": [],
+      "correct_answer": "palabra_14",
+      "explanation": "'word_14' in Spanish is 'palabra_14'.",
+      "points": 20
+    },
+    {
+      "id": "f4d74bac",
+      "type": "matching",
+      "question": "Match 'palabra_15' with its meaning",
+      "options": [
+        "word_15",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "word_15",
+      "explanation": "'palabra_15' matches with 'word_15'.",
+      "points": 10
+    },
+    {
+      "id": "47515d0f",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_16' mean?",
+      "options": [
+        "word_16",
+        "house",
+        "friend",
+        "night"
+      ],
+      "correct_answer": "word_16",
+      "explanation": "'palabra_16' translates to 'word_16' in English.",
+      "points": 10
+    },
+    {
+      "id": "bf69851c",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_17' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_17",
+      "explanation": "The correct answer is 'palabra_17'.",
+      "points": 15
+    }
+  ],
+  "created_at": "2025-12-28T20:46:59.047462",
+  "version": "1.6.0"
+}

@@ -1,0 +1,241 @@
+{
+  "id": "a1_shopping_0065",
+  "slug": "a1-shopping-0065",
+  "cefr_level": "A1",
+  "category": "Shopping",
+  "title_en": "Shopping - Lesson 65",
+  "title_es": "Shopping - Lección 65",
+  "description_en": "Learn shopping vocabulary and expressions at the A1 level.",
+  "description_es": "Aprende vocabulario y expresiones de shopping en el nivel A1.",
+  "objectives": [
+    "Master 15 new vocabulary words",
+    "Understand 3 grammar concepts",
+    "Complete 8 practice exercises",
+    "Apply knowledge in real-world contexts"
+  ],
+  "estimated_minutes": 15,
+  "vocabulary": [
+    {
+      "spanish": "palabra_0",
+      "english": "word_0",
+      "pronunciation": "PALABRA_0",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_0?",
+      "example_en": "Where is word_0?"
+    },
+    {
+      "spanish": "palabra_1",
+      "english": "word_1",
+      "pronunciation": "PALABRA_1",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_1?",
+      "example_en": "Where is word_1?"
+    },
+    {
+      "spanish": "palabra_2",
+      "english": "word_2",
+      "pronunciation": "PALABRA_2",
+      "pos": "noun",
+      "example_es": "Quiero palabra_2.",
+      "example_en": "I want word_2."
+    },
+    {
+      "spanish": "palabra_3",
+      "english": "word_3",
+      "pronunciation": "PALABRA_3",
+      "pos": "noun",
+      "example_es": "Necesito palabra_3.",
+      "example_en": "I need word_3."
+    },
+    {
+      "spanish": "palabra_4",
+      "english": "word_4",
+      "pronunciation": "PALABRA_4",
+      "pos": "noun",
+      "example_es": "Quiero palabra_4.",
+      "example_en": "I want word_4."
+    },
+    {
+      "spanish": "palabra_5",
+      "english": "word_5",
+      "pronunciation": "PALABRA_5",
+      "pos": "noun",
+      "example_es": "Quiero palabra_5.",
+      "example_en": "I want word_5."
+    },
+    {
+      "spanish": "palabra_6",
+      "english": "word_6",
+      "pronunciation": "PALABRA_6",
+      "pos": "noun",
+      "example_es": "Quiero palabra_6.",
+      "example_en": "I want word_6."
+    },
+    {
+      "spanish": "palabra_7",
+      "english": "word_7",
+      "pronunciation": "PALABRA_7",
+      "pos": "noun",
+      "example_es": "Tengo palabra_7.",
+      "example_en": "I have word_7."
+    },
+    {
+      "spanish": "palabra_8",
+      "english": "word_8",
+      "pronunciation": "PALABRA_8",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_8?",
+      "example_en": "Where is word_8?"
+    },
+    {
+      "spanish": "palabra_9",
+      "english": "word_9",
+      "pronunciation": "PALABRA_9",
+      "pos": "noun",
+      "example_es": "Quiero palabra_9.",
+      "example_en": "I want word_9."
+    },
+    {
+      "spanish": "palabra_10",
+      "english": "word_10",
+      "pronunciation": "PALABRA_10",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_10?",
+      "example_en": "Where is word_10?"
+    },
+    {
+      "spanish": "palabra_11",
+      "english": "word_11",
+      "pronunciation": "PALABRA_11",
+      "pos": "noun",
+      "example_es": "Me gusta palabra_11.",
+      "example_en": "I like word_11."
+    },
+    {
+      "spanish": "palabra_12",
+      "english": "word_12",
+      "pronunciation": "PALABRA_12",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_12?",
+      "example_en": "Where is word_12?"
+    },
+    {
+      "spanish": "palabra_13",
+      "english": "word_13",
+      "pronunciation": "PALABRA_13",
+      "pos": "noun",
+      "example_es": "Quiero palabra_13.",
+      "example_en": "I want word_13."
+    },
+    {
+      "spanish": "palabra_14",
+      "english": "word_14",
+      "pronunciation": "PALABRA_14",
+      "pos": "noun",
+      "example_es": "¿Dónde está palabra_14?",
+      "example_en": "Where is word_14?"
+    }
+  ],
+  "grammar_points": [
+    "Present tense of ser and estar",
+    "Basic question formation",
+    "Gender and number agreement"
+  ],
+  "cultural_note": "Family is central to Hispanic culture, with extended families often living close together.",
+  "exercises": [
+    {
+      "id": "3cf25e0d",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_0' mean?",
+      "options": [
+        "word_0",
+        "day",
+        "car",
+        "book"
+      ],
+      "correct_answer": "word_0",
+      "explanation": "'palabra_0' translates to 'word_0' in English.",
+      "points": 10
+    },
+    {
+      "id": "a6199c6a",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_1' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_1",
+      "explanation": "The correct answer is 'palabra_1'.",
+      "points": 15
+    },
+    {
+      "id": "6e4d0f74",
+      "type": "translation",
+      "question": "Translate to Spanish: 'word_2'",
+      "options": [],
+      "correct_answer": "palabra_2",
+      "explanation": "'word_2' in Spanish is 'palabra_2'.",
+      "points": 20
+    },
+    {
+      "id": "a829ea4f",
+      "type": "matching",
+      "question": "Match 'palabra_3' with its meaning",
+      "options": [
+        "word_3",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "word_3",
+      "explanation": "'palabra_3' matches with 'word_3'.",
+      "points": 10
+    },
+    {
+      "id": "0b2f3810",
+      "type": "multiple_choice",
+      "question": "What does 'palabra_4' mean?",
+      "options": [
+        "word_4",
+        "day",
+        "book",
+        "time"
+      ],
+      "correct_answer": "word_4",
+      "explanation": "'palabra_4' translates to 'word_4' in English.",
+      "points": 10
+    },
+    {
+      "id": "9d76b273",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'word_5' in Spanish.",
+      "options": [],
+      "correct_answer": "palabra_5",
+      "explanation": "The correct answer is 'palabra_5'.",
+      "points": 15
+    },
+    {
+      "id": "b8a6d896",
+      "type": "translation",
+      "question": "Translate to Spanish: 'word_6'",
+      "options": [],
+      "correct_answer": "palabra_6",
+      "explanation": "'word_6' in Spanish is 'palabra_6'.",
+      "points": 20
+    },
+    {
+      "id": "5fd31c3b",
+      "type": "matching",
+      "question": "Match 'palabra_7' with its meaning",
+      "options": [
+        "word_7",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "word_7",
+      "explanation": "'palabra_7' matches with 'word_7'.",
+      "points": 10
+    }
+  ],
+  "created_at": "2025-12-28T20:46:55.537365",
+  "version": "1.6.0"
+}

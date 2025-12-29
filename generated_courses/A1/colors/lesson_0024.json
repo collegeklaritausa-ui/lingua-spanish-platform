@@ -1,0 +1,241 @@
+{
+  "id": "a1_colors_0024",
+  "slug": "a1-colors-0024",
+  "cefr_level": "A1",
+  "category": "Colors",
+  "title_en": "Colors - Lesson 24",
+  "title_es": "Colors - Lección 24",
+  "description_en": "Learn colors vocabulary and expressions at the A1 level.",
+  "description_es": "Aprende vocabulario y expresiones de colors en el nivel A1.",
+  "objectives": [
+    "Master 15 new vocabulary words",
+    "Understand 3 grammar concepts",
+    "Complete 8 practice exercises",
+    "Apply knowledge in real-world contexts"
+  ],
+  "estimated_minutes": 15,
+  "vocabulary": [
+    {
+      "spanish": "rojo",
+      "english": "red",
+      "pronunciation": "ROHO",
+      "pos": "adjective",
+      "example_es": "Necesito rojo.",
+      "example_en": "I need red."
+    },
+    {
+      "spanish": "azul",
+      "english": "blue",
+      "pronunciation": "AZUL",
+      "pos": "adjective",
+      "example_es": "Me gusta azul.",
+      "example_en": "I like blue."
+    },
+    {
+      "spanish": "verde",
+      "english": "green",
+      "pronunciation": "VERDE",
+      "pos": "adjective",
+      "example_es": "Necesito verde.",
+      "example_en": "I need green."
+    },
+    {
+      "spanish": "amarillo",
+      "english": "yellow",
+      "pronunciation": "AMARIYO",
+      "pos": "adjective",
+      "example_es": "Necesito amarillo.",
+      "example_en": "I need yellow."
+    },
+    {
+      "spanish": "negro",
+      "english": "black",
+      "pronunciation": "NEGRO",
+      "pos": "adjective",
+      "example_es": "¿Dónde está negro?",
+      "example_en": "Where is black?"
+    },
+    {
+      "spanish": "blanco",
+      "english": "white",
+      "pronunciation": "BLANCO",
+      "pos": "adjective",
+      "example_es": "Me gusta blanco.",
+      "example_en": "I like white."
+    },
+    {
+      "spanish": "naranja",
+      "english": "orange",
+      "pronunciation": "NARANHA",
+      "pos": "adjective",
+      "example_es": "Quiero naranja.",
+      "example_en": "I want orange."
+    },
+    {
+      "spanish": "morado",
+      "english": "purple",
+      "pronunciation": "MORADO",
+      "pos": "adjective",
+      "example_es": "Me gusta morado.",
+      "example_en": "I like purple."
+    },
+    {
+      "spanish": "rosa",
+      "english": "pink",
+      "pronunciation": "ROSA",
+      "pos": "adjective",
+      "example_es": "Me gusta rosa.",
+      "example_en": "I like pink."
+    },
+    {
+      "spanish": "gris",
+      "english": "gray",
+      "pronunciation": "GRIS",
+      "pos": "adjective",
+      "example_es": "Necesito gris.",
+      "example_en": "I need gray."
+    },
+    {
+      "spanish": "marrón",
+      "english": "brown",
+      "pronunciation": "MARRÓN",
+      "pos": "adjective",
+      "example_es": "Quiero marrón.",
+      "example_en": "I want brown."
+    },
+    {
+      "spanish": "dorado",
+      "english": "golden",
+      "pronunciation": "DORADO",
+      "pos": "adjective",
+      "example_es": "¿Dónde está dorado?",
+      "example_en": "Where is golden?"
+    },
+    {
+      "spanish": "plateado",
+      "english": "silver",
+      "pronunciation": "PLATEADO",
+      "pos": "adjective",
+      "example_es": "¿Dónde está plateado?",
+      "example_en": "Where is silver?"
+    },
+    {
+      "spanish": "claro",
+      "english": "light",
+      "pronunciation": "CLARO",
+      "pos": "adjective",
+      "example_es": "Tengo claro.",
+      "example_en": "I have light."
+    },
+    {
+      "spanish": "oscuro",
+      "english": "dark",
+      "pronunciation": "OSCURO",
+      "pos": "adjective",
+      "example_es": "Me gusta oscuro.",
+      "example_en": "I like dark."
+    }
+  ],
+  "grammar_points": [
+    "Present tense of ser and estar",
+    "Definite and indefinite articles",
+    "Gender and number agreement"
+  ],
+  "cultural_note": "The siesta is a traditional afternoon rest period in Spain.",
+  "exercises": [
+    {
+      "id": "464f0ee2",
+      "type": "multiple_choice",
+      "question": "What does 'rojo' mean?",
+      "options": [
+        "book",
+        "friend",
+        "red",
+        "water"
+      ],
+      "correct_answer": "red",
+      "explanation": "'rojo' translates to 'red' in English.",
+      "points": 10
+    },
+    {
+      "id": "104de35b",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'blue' in Spanish.",
+      "options": [],
+      "correct_answer": "azul",
+      "explanation": "The correct answer is 'azul'.",
+      "points": 15
+    },
+    {
+      "id": "43d68012",
+      "type": "translation",
+      "question": "Translate to Spanish: 'green'",
+      "options": [],
+      "correct_answer": "verde",
+      "explanation": "'green' in Spanish is 'verde'.",
+      "points": 20
+    },
+    {
+      "id": "5d145429",
+      "type": "matching",
+      "question": "Match 'amarillo' with its meaning",
+      "options": [
+        "yellow",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "yellow",
+      "explanation": "'amarillo' matches with 'yellow'.",
+      "points": 10
+    },
+    {
+      "id": "81002bfb",
+      "type": "multiple_choice",
+      "question": "What does 'negro' mean?",
+      "options": [
+        "black",
+        "water",
+        "book",
+        "car"
+      ],
+      "correct_answer": "black",
+      "explanation": "'negro' translates to 'black' in English.",
+      "points": 10
+    },
+    {
+      "id": "2f351934",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'white' in Spanish.",
+      "options": [],
+      "correct_answer": "blanco",
+      "explanation": "The correct answer is 'blanco'.",
+      "points": 15
+    },
+    {
+      "id": "69ce754b",
+      "type": "translation",
+      "question": "Translate to Spanish: 'orange'",
+      "options": [],
+      "correct_answer": "naranja",
+      "explanation": "'orange' in Spanish is 'naranja'.",
+      "points": 20
+    },
+    {
+      "id": "d9f557a9",
+      "type": "matching",
+      "question": "Match 'morado' with its meaning",
+      "options": [
+        "purple",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "purple",
+      "explanation": "'morado' matches with 'purple'.",
+      "points": 10
+    }
+  ],
+  "created_at": "2025-12-28T20:46:55.076990",
+  "version": "1.6.0"
+}

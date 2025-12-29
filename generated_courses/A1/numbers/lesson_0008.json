@@ -1,0 +1,241 @@
+{
+  "id": "a1_numbers_0008",
+  "slug": "a1-numbers-0008",
+  "cefr_level": "A1",
+  "category": "Numbers",
+  "title_en": "Numbers - Lesson 8",
+  "title_es": "Numbers - Lección 8",
+  "description_en": "Learn numbers vocabulary and expressions at the A1 level.",
+  "description_es": "Aprende vocabulario y expresiones de numbers en el nivel A1.",
+  "objectives": [
+    "Master 15 new vocabulary words",
+    "Understand 3 grammar concepts",
+    "Complete 8 practice exercises",
+    "Apply knowledge in real-world contexts"
+  ],
+  "estimated_minutes": 15,
+  "vocabulary": [
+    {
+      "spanish": "uno",
+      "english": "one",
+      "pronunciation": "UNO",
+      "pos": "number",
+      "example_es": "Tengo uno.",
+      "example_en": "I have one."
+    },
+    {
+      "spanish": "dos",
+      "english": "two",
+      "pronunciation": "DOS",
+      "pos": "number",
+      "example_es": "Me gusta dos.",
+      "example_en": "I like two."
+    },
+    {
+      "spanish": "tres",
+      "english": "three",
+      "pronunciation": "TRES",
+      "pos": "number",
+      "example_es": "Tengo tres.",
+      "example_en": "I have three."
+    },
+    {
+      "spanish": "cuatro",
+      "english": "four",
+      "pronunciation": "CUATRO",
+      "pos": "number",
+      "example_es": "Quiero cuatro.",
+      "example_en": "I want four."
+    },
+    {
+      "spanish": "cinco",
+      "english": "five",
+      "pronunciation": "CINCO",
+      "pos": "number",
+      "example_es": "Me gusta cinco.",
+      "example_en": "I like five."
+    },
+    {
+      "spanish": "seis",
+      "english": "six",
+      "pronunciation": "SEIS",
+      "pos": "number",
+      "example_es": "¿Dónde está seis?",
+      "example_en": "Where is six?"
+    },
+    {
+      "spanish": "siete",
+      "english": "seven",
+      "pronunciation": "SIETE",
+      "pos": "number",
+      "example_es": "Tengo siete.",
+      "example_en": "I have seven."
+    },
+    {
+      "spanish": "ocho",
+      "english": "eight",
+      "pronunciation": "OCHO",
+      "pos": "number",
+      "example_es": "Me gusta ocho.",
+      "example_en": "I like eight."
+    },
+    {
+      "spanish": "nueve",
+      "english": "nine",
+      "pronunciation": "NUEVE",
+      "pos": "number",
+      "example_es": "Me gusta nueve.",
+      "example_en": "I like nine."
+    },
+    {
+      "spanish": "diez",
+      "english": "ten",
+      "pronunciation": "DIEZ",
+      "pos": "number",
+      "example_es": "Me gusta diez.",
+      "example_en": "I like ten."
+    },
+    {
+      "spanish": "once",
+      "english": "eleven",
+      "pronunciation": "ONCE",
+      "pos": "number",
+      "example_es": "Tengo once.",
+      "example_en": "I have eleven."
+    },
+    {
+      "spanish": "doce",
+      "english": "twelve",
+      "pronunciation": "DOCE",
+      "pos": "number",
+      "example_es": "Quiero doce.",
+      "example_en": "I want twelve."
+    },
+    {
+      "spanish": "veinte",
+      "english": "twenty",
+      "pronunciation": "VEINTE",
+      "pos": "number",
+      "example_es": "Tengo veinte.",
+      "example_en": "I have twenty."
+    },
+    {
+      "spanish": "cien",
+      "english": "one hundred",
+      "pronunciation": "CIEN",
+      "pos": "number",
+      "example_es": "Tengo cien.",
+      "example_en": "I have one hundred."
+    },
+    {
+      "spanish": "mil",
+      "english": "one thousand",
+      "pronunciation": "MIL",
+      "pos": "number",
+      "example_es": "Necesito mil.",
+      "example_en": "I need one thousand."
+    }
+  ],
+  "grammar_points": [
+    "Subject pronouns",
+    "Gender and number agreement",
+    "Basic question formation"
+  ],
+  "cultural_note": "Meal times vary: lunch is typically the largest meal, eaten around 2-3 PM.",
+  "exercises": [
+    {
+      "id": "ca75008f",
+      "type": "multiple_choice",
+      "question": "What does 'uno' mean?",
+      "options": [
+        "water",
+        "book",
+        "house",
+        "one"
+      ],
+      "correct_answer": "one",
+      "explanation": "'uno' translates to 'one' in English.",
+      "points": 10
+    },
+    {
+      "id": "681f1170",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'two' in Spanish.",
+      "options": [],
+      "correct_answer": "dos",
+      "explanation": "The correct answer is 'dos'.",
+      "points": 15
+    },
+    {
+      "id": "92513267",
+      "type": "translation",
+      "question": "Translate to Spanish: 'three'",
+      "options": [],
+      "correct_answer": "tres",
+      "explanation": "'three' in Spanish is 'tres'.",
+      "points": 20
+    },
+    {
+      "id": "a05e36d0",
+      "type": "matching",
+      "question": "Match 'cuatro' with its meaning",
+      "options": [
+        "four",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "four",
+      "explanation": "'cuatro' matches with 'four'.",
+      "points": 10
+    },
+    {
+      "id": "e8d3f282",
+      "type": "multiple_choice",
+      "question": "What does 'cinco' mean?",
+      "options": [
+        "five",
+        "night",
+        "time",
+        "friend"
+      ],
+      "correct_answer": "five",
+      "explanation": "'cinco' translates to 'five' in English.",
+      "points": 10
+    },
+    {
+      "id": "ff3fbd7e",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'six' in Spanish.",
+      "options": [],
+      "correct_answer": "seis",
+      "explanation": "The correct answer is 'seis'.",
+      "points": 15
+    },
+    {
+      "id": "2b338322",
+      "type": "translation",
+      "question": "Translate to Spanish: 'seven'",
+      "options": [],
+      "correct_answer": "siete",
+      "explanation": "'seven' in Spanish is 'siete'.",
+      "points": 20
+    },
+    {
+      "id": "efc17e59",
+      "type": "matching",
+      "question": "Match 'ocho' with its meaning",
+      "options": [
+        "eight",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "eight",
+      "explanation": "'ocho' matches with 'eight'.",
+      "points": 10
+    }
+  ],
+  "created_at": "2025-12-28T20:46:55.030719",
+  "version": "1.6.0"
+}

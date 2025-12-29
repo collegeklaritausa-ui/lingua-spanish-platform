@@ -1,0 +1,241 @@
+{
+  "id": "a1_greetings_0079",
+  "slug": "a1-greetings-0079",
+  "cefr_level": "A1",
+  "category": "Greetings",
+  "title_en": "Greetings - Lesson 79",
+  "title_es": "Greetings - Lección 79",
+  "description_en": "Learn greetings vocabulary and expressions at the A1 level.",
+  "description_es": "Aprende vocabulario y expresiones de greetings en el nivel A1.",
+  "objectives": [
+    "Master 15 new vocabulary words",
+    "Understand 3 grammar concepts",
+    "Complete 8 practice exercises",
+    "Apply knowledge in real-world contexts"
+  ],
+  "estimated_minutes": 15,
+  "vocabulary": [
+    {
+      "spanish": "hola",
+      "english": "hello",
+      "pronunciation": "HOLA",
+      "pos": "interjection",
+      "example_es": "Quiero hola.",
+      "example_en": "I want hello."
+    },
+    {
+      "spanish": "buenos días",
+      "english": "good morning",
+      "pronunciation": "BUENOS DÍAS",
+      "pos": "phrase",
+      "example_es": "Tengo buenos días.",
+      "example_en": "I have good morning."
+    },
+    {
+      "spanish": "buenas tardes",
+      "english": "good afternoon",
+      "pronunciation": "BUENAS TARDES",
+      "pos": "phrase",
+      "example_es": "Tengo buenas tardes.",
+      "example_en": "I have good afternoon."
+    },
+    {
+      "spanish": "buenas noches",
+      "english": "good evening/night",
+      "pronunciation": "BUENAS NOCHES",
+      "pos": "phrase",
+      "example_es": "Necesito buenas noches.",
+      "example_en": "I need good evening/night."
+    },
+    {
+      "spanish": "adiós",
+      "english": "goodbye",
+      "pronunciation": "ADIÓS",
+      "pos": "interjection",
+      "example_es": "Quiero adiós.",
+      "example_en": "I want goodbye."
+    },
+    {
+      "spanish": "hasta luego",
+      "english": "see you later",
+      "pronunciation": "HASTA LUEGO",
+      "pos": "phrase",
+      "example_es": "Necesito hasta luego.",
+      "example_en": "I need see you later."
+    },
+    {
+      "spanish": "¿cómo estás?",
+      "english": "how are you?",
+      "pronunciation": "¿CÓMO ESTÁS?",
+      "pos": "phrase",
+      "example_es": "Tengo ¿cómo estás?.",
+      "example_en": "I have how are you?."
+    },
+    {
+      "spanish": "muy bien",
+      "english": "very well",
+      "pronunciation": "MUY BIEN",
+      "pos": "phrase",
+      "example_es": "Tengo muy bien.",
+      "example_en": "I have very well."
+    },
+    {
+      "spanish": "gracias",
+      "english": "thank you",
+      "pronunciation": "GRACIAS",
+      "pos": "interjection",
+      "example_es": "Quiero gracias.",
+      "example_en": "I want thank you."
+    },
+    {
+      "spanish": "de nada",
+      "english": "you're welcome",
+      "pronunciation": "DE NADA",
+      "pos": "phrase",
+      "example_es": "Tengo de nada.",
+      "example_en": "I have you're welcome."
+    },
+    {
+      "spanish": "por favor",
+      "english": "please",
+      "pronunciation": "POR FAVOR",
+      "pos": "phrase",
+      "example_es": "¿Dónde está por favor?",
+      "example_en": "Where is please?"
+    },
+    {
+      "spanish": "perdón",
+      "english": "excuse me/sorry",
+      "pronunciation": "PERDÓN",
+      "pos": "interjection",
+      "example_es": "Necesito perdón.",
+      "example_en": "I need excuse me/sorry."
+    },
+    {
+      "spanish": "lo siento",
+      "english": "I'm sorry",
+      "pronunciation": "LO SIENTO",
+      "pos": "phrase",
+      "example_es": "Quiero lo siento.",
+      "example_en": "I want I'm sorry."
+    },
+    {
+      "spanish": "mucho gusto",
+      "english": "nice to meet you",
+      "pronunciation": "MUCHO GUSTO",
+      "pos": "phrase",
+      "example_es": "Quiero mucho gusto.",
+      "example_en": "I want nice to meet you."
+    },
+    {
+      "spanish": "encantado/a",
+      "english": "pleased to meet you",
+      "pronunciation": "ENCANTADO/A",
+      "pos": "adjective",
+      "example_es": "¿Dónde está encantado/a?",
+      "example_en": "Where is pleased to meet you?"
+    }
+  ],
+  "grammar_points": [
+    "Gender and number agreement",
+    "Negation with 'no'",
+    "Subject pronouns"
+  ],
+  "cultural_note": "In Spanish-speaking countries, greetings often include a kiss on the cheek.",
+  "exercises": [
+    {
+      "id": "61a4bfea",
+      "type": "multiple_choice",
+      "question": "What does 'hola' mean?",
+      "options": [
+        "hello",
+        "water",
+        "book",
+        "night"
+      ],
+      "correct_answer": "hello",
+      "explanation": "'hola' translates to 'hello' in English.",
+      "points": 10
+    },
+    {
+      "id": "042bd0b8",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'good morning' in Spanish.",
+      "options": [],
+      "correct_answer": "buenos días",
+      "explanation": "The correct answer is 'buenos días'.",
+      "points": 15
+    },
+    {
+      "id": "d1d7d84f",
+      "type": "translation",
+      "question": "Translate to Spanish: 'good afternoon'",
+      "options": [],
+      "correct_answer": "buenas tardes",
+      "explanation": "'good afternoon' in Spanish is 'buenas tardes'.",
+      "points": 20
+    },
+    {
+      "id": "564ca360",
+      "type": "matching",
+      "question": "Match 'buenas noches' with its meaning",
+      "options": [
+        "good evening/night",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "good evening/night",
+      "explanation": "'buenas noches' matches with 'good evening/night'.",
+      "points": 10
+    },
+    {
+      "id": "edd30344",
+      "type": "multiple_choice",
+      "question": "What does 'adiós' mean?",
+      "options": [
+        "water",
+        "night",
+        "goodbye",
+        "time"
+      ],
+      "correct_answer": "goodbye",
+      "explanation": "'adiós' translates to 'goodbye' in English.",
+      "points": 10
+    },
+    {
+      "id": "7d8bffa9",
+      "type": "fill_blank",
+      "question": "Complete: '____' means 'see you later' in Spanish.",
+      "options": [],
+      "correct_answer": "hasta luego",
+      "explanation": "The correct answer is 'hasta luego'.",
+      "points": 15
+    },
+    {
+      "id": "1d4e83f8",
+      "type": "translation",
+      "question": "Translate to Spanish: 'how are you?'",
+      "options": [],
+      "correct_answer": "¿cómo estás?",
+      "explanation": "'how are you?' in Spanish is '¿cómo estás?'.",
+      "points": 20
+    },
+    {
+      "id": "4c6033af",
+      "type": "matching",
+      "question": "Match 'muy bien' with its meaning",
+      "options": [
+        "very well",
+        "incorrect1",
+        "incorrect2",
+        "incorrect3"
+      ],
+      "correct_answer": "very well",
+      "explanation": "'muy bien' matches with 'very well'.",
+      "points": 10
+    }
+  ],
+  "created_at": "2025-12-28T20:46:55.017994",
+  "version": "1.6.0"
+}
