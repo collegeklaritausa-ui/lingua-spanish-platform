@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: prize2pride-spanish
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
